@@ -1,0 +1,62 @@
+body{
+	background-color: lightblue;
+	background-image: url("../image/background.jpg");
+	background-size: cover;
+}
+nav{
+	margin-left: 60%;
+}
+li{
+	display: inline;
+	margin-left: 0px;
+
+}
+a.nav{
+	text-decoration: none;
+	color: white;
+	height: 150px;
+	font-size: 17px;
+	padding: 20px;
+}
+
+a.nav:hover{
+	background-color: white;
+	transition-duration: 1s;
+	color: green;
+}
+a.nav:focus{
+	background-color: white;
+	color: green;
+}
+p#top{
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+p#down{
+	color: white;
+	font-size: 150px;
+	background-image: url("../image/text_back.jpg");
+	background-size: cover;
+	width: 1000px;
+	margin-left: 100px;
+	margin-top: 10px;
+	border: 1px solid white;
+	text-align: center;
+}
+a#FIND_OUT_BUTTON{
+	text-decoration: none;
+	color: white;
+	height: 150px;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+a#FIND_OUT_BUTTON:hover{
+	background-color: rgb(12,56,47);
+	font-size: 40px;
+
+	transition-duration: 2s;
+}
